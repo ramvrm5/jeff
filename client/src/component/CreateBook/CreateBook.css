@@ -1,0 +1,19 @@
+.createBook_container{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_bookTitle, .input_author, .create_btn {
+    width: 86vw;
+    margin: 25px;
+}
+
+.create_btn button {
+    width: 20vw;
+    background-color: #E76849;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}

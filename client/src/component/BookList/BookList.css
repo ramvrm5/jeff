@@ -1,0 +1,46 @@
+.bookList_container{
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+    min-height: 62vh;
+    overflow: scroll;
+}
+
+.booklist_wrapper{
+    width: 86vw;
+    margin: 10px 10px;
+    padding: 13px 23px;
+    border-radius: 10px;
+    background-color: #F9EBDC;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.content_book_title{
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 50vw;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.content_book_author{
+    color: #E87059;
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 50vw;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.fa-times{
+    cursor: pointer;
+}
